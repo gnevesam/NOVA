@@ -1,0 +1,58 @@
+body {
+  background-color: #f3f3f3;
+}
+h1 {
+  font-family: "Radio Canada", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+h2 {
+  font-family: "Radio Canada", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+p {
+  font-family: "Radio Canada", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+a {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+a:visited {
+  color: #b3b3b3;
+}
+.tipo1 {
+  height: auto;
+  color: #f3f3f3;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tipo2 {
+  height: auto;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logotipo {
+  width: 200px;
+  border-radius: 100px;
+  margin-top: 30px;
+}
+.botão {
+  padding: 10px 10px;
+  width: 250px;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
+.botão:hover {
+  background-color: rgb(43, 43, 43);
+}
